@@ -40,5 +40,4 @@ jobs:
           PHONE_NUMBER: ${{ secrets.PHONE_NUMBER }}
           ID_NO: ${{ secrets.ID_NO }}
         run: |
-          bash Init_Building_Dependencies.sh
           python3 rxsq.py
