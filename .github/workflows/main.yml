@@ -18,6 +18,10 @@ jobs:
       with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
+    - name: 'cp'
+      run: |
+        sudo cp -r ./ /usr/bin/
+        sudo chmod -R 777 /usr/bin/
     - name: Run
       env:
         TZ: Asia/Shanghai
