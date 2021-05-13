@@ -147,11 +147,11 @@ print('申请')
 s.post(COMMON_STATE)
 s.post(pass_campus)
 s.post(SQLY)
-s.post(uploadTempFile,{'scope': '162069986477777','fileToken': '1620524710864251','size': '0','type': 'jpg,jpeg,png','storeId': 'image','isSingle': '0','fileName': '','files[]': '/usr/bin/行程卡.PNG'})
+s.post(uploadTempFile,{'scope': '162086703298648','fileToken': '1620867032986481','size': '0','type': 'jpg,jpeg,png','storeId': 'image','isSingle': '0','fileName': '','files[]': '/usr/bin/行程卡.PNG'})
 print('内容填写')
 
 #提交模拟发包
-s.post(submit1,{'attachmentParam': '{"storeId":"image","scope":"162069986477777","fileToken":"1620699864777771"}'})
+s.post(submit1,{'attachmentParam': '{"storeId":"image","scope":"162086703293942","fileToken":"1620867032939421"}'})
 s.post(submit2)
 s.post(submit3,{'attachmentParam': '{"storeId":"image","scope":"162069986478041","fileToken":"1620699864780411"}'})
 s.post(submit4)
